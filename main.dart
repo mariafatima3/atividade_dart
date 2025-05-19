@@ -29,12 +29,30 @@ void main() {
 
 // 6. Usando as variáveis do exercício anterior, calcule o resto da divisão de a por b.
 
+int Resto_da_divisao = a % b;
+print("Resto_da_divisao: $Resto_da_divisao");
+
 // 7. Crie uma variável double para o valor de uma compra e aplique um desconto de 10% usando operadores aritméticos.
 
- 
+double compra = 500.00;
+double desconto = compra * 0.10;
+print("Compra: $compra");
+print("Desconto: $desconto");
+
+// 8. Defina uma variável String para o nome de um produto e concatene com o preço em uma frase.
 
 
+// 9. Declare uma lista (List) de três nomes de cidades e imprima o segundo nome.
 
+List nomes_cidades = ['Cuíte','Picuí','São Paulo'];
+print("Nomes_Cidades: ${nomes_cidades[1]}");
+
+// 10. Crie um conjunto (Set) com os números 1, 2, 3, 2 e mostre quantos elementos únicos existem.
+
+Set numeros = {1,2,3,2};
+print("Números: ${numeros.length}");
+
+// 11. Crie um mapa (Map) para associar nomes de frutas a seus preços e acesse o preço de uma fruta específica.
 
 
   
