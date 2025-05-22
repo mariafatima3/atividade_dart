@@ -41,10 +41,13 @@ print("Desconto: $desconto");
 
 // 8. Defina uma variável String para o nome de um produto e concatene com o preço em uma frase.
 
-
+String Produto = "Bolsa";
+double preco = 50.00;
+String frase = "Produto $Produto Valor: R\$ ${preco.toStringAsFixed(2)}.";
+  print(frase);
 // 9. Declare uma lista (List) de três nomes de cidades e imprima o segundo nome.
 
-List nomes_cidades = ['Cuíte','Picuí','São Paulo'];
+List nomes_cidades = ['Cuité','Picuí','São Paulo'];
 print("Nomes_Cidades: ${nomes_cidades[1]}");
 
 // 10. Crie um conjunto (Set) com os números 1, 2, 3, 2 e mostre quantos elementos únicos existem.
